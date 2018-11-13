@@ -1,0 +1,12 @@
+item.ingot_tutorial.name=Tutorial Ingot
+tile.ore_tutorial.name=Tutorial Ore
+itemGroup.tab_tutorial=Tutorial Tab
+item.helmet_tutorial.name=Tutorial Helmet
+tile.planks_aluminium.name=Aluminium Planks
+tile.planks_tutorial.name=Tutorial Planks
+tile.log_tutorial.name=Tutorial Log
+tile.log_aluminium.name=Aluminium Log
+tile.leaves_tutorial.name=Tutorial Leaves
+tile.leaves_aluminium.name=Aluminium Leaves
+tile.sapling_tutorial.name=Tutorial Sapling
+tile.sapling_aluminium.name=Aluminium Sapling
