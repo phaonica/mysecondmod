@@ -6,9 +6,11 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import phaonica.mysecondmod.init.BlockInit;
 import phaonica.mysecondmod.init.ItemInit;
 import phaonica.mysecondmod.util.IHasModel;
+import world.gen.WorldGenCustomOres;
 
 @EventBusSubscriber
 public class RegistryHandler
@@ -42,6 +44,11 @@ public class RegistryHandler
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	
+	public static void otherRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(),  0);
 	}
 	
 }

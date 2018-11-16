@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import phaonica.mysecondmod.proxy.CommonProxy;
 import phaonica.mysecondmod.util.Reference;
+import phaonica.mysecondmod.util.handlers.RegistryHandler;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
 public class Main 
@@ -20,7 +21,10 @@ public class Main
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {}
+	public static void preInit(FMLPreInitializationEvent event) 
+	{
+		RegistryHandler.otherRegistries();
+	}
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {}
