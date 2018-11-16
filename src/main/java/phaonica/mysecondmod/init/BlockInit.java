@@ -13,4 +13,8 @@ public class BlockInit
 	
 	public static final Block ORE_TUTORAL = new BlockBase("ore_tutorial", Material.IRON);
 	
+	public static final Block ORE_TUTORIAL_END = new BlockOres("ore_end", "end");
+	public static final Block ORE_TUTORIAL_OVERWORLD = new BlockOres("ore_overworld", "overworld");
+	public static final Block ORE_TUTORIAL_NETHER = new BlockOres("ore_nether", "nether");
+	
 }

@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "variant=tutorial": { "model": "phaomsm:ore_nether_tutorial" }, 
+        "variant=aluminium": { "model": "phaomsm:ore_nether_aluminium" } 
+    }
+}
