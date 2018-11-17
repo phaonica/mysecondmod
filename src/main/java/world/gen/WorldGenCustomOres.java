@@ -12,7 +12,7 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
 import phaonica.mysecondmod.init.BlockInit;
-import phaonica.mysecondmod.init.BlockOres;
+import phaonica.mysecondmod.objects.blocks.BlockOres;
 import phaonica.mysecondmod.util.handlers.EnumHandler;
 
 public class WorldGenCustomOres implements IWorldGenerator

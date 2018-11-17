@@ -6,6 +6,7 @@ import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import phaonica.mysecondmod.objects.blocks.BlockBase;
+import phaonica.mysecondmod.objects.blocks.BlockOres;
 
 public class BlockInit
 {

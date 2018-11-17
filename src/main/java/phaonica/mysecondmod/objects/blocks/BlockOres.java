@@ -1,4 +1,4 @@
-package phaonica.mysecondmod.init;
+package phaonica.mysecondmod.objects.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -16,6 +16,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 import phaonica.mysecondmod.Main;
+import phaonica.mysecondmod.init.BlockInit;
+import phaonica.mysecondmod.init.ItemInit;
 import phaonica.mysecondmod.objects.blocks.item.ItemBlockVariants;
 import phaonica.mysecondmod.util.IHasModel;
 import phaonica.mysecondmod.util.handlers.EnumHandler;
