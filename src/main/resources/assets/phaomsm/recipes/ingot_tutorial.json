@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+      "OP"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item":"phaomsm:ingot_tutorial"
+        },
+        
+        "P":
+        {
+            "item":"phaomsm:pickaxe_tutorial"
+        }
+    },
+    
+    "result":
+    {
+        "item":"phaomsm:ingot_tutorial",
+        "count": 2
+    }
+}
