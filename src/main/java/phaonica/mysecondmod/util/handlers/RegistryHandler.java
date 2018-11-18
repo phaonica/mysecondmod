@@ -11,6 +11,7 @@ import phaonica.mysecondmod.init.BlockInit;
 import phaonica.mysecondmod.init.ItemInit;
 import phaonica.mysecondmod.util.IHasModel;
 import phaonica.mysecondmod.world.gen.WorldGenCustomOres;
+import phaonica.mysecondmod.world.gen.WorldGenCustomTrees;
 
 @EventBusSubscriber
 public class RegistryHandler
@@ -49,6 +50,7 @@ public class RegistryHandler
 	public static void otherRegistries()
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(),  0);
+		GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(),  0);
 	}
 	
 }
