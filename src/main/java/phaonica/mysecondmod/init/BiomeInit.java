@@ -7,7 +7,7 @@ import net.minecraftforge.common.BiomeDictionary.Type;
 import net.minecraftforge.common.BiomeManager.BiomeEntry;
 import net.minecraftforge.common.BiomeManager.BiomeType;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
-import phaonica.mysecondmod.world.gen.biomes.BiomeTutorial;
+import phaonica.mysecondmod.world.biomes.BiomeTutorial;
 
 public class BiomeInit
 {

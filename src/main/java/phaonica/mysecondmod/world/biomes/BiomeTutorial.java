@@ -1,4 +1,4 @@
-package phaonica.mysecondmod.world.gen.biomes;
+package phaonica.mysecondmod.world.biomes;
 
 import java.util.Random;
 

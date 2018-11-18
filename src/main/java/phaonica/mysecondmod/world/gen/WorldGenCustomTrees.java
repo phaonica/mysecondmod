@@ -11,7 +11,7 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
-import phaonica.mysecondmod.world.gen.biomes.BiomeTutorial;
+import phaonica.mysecondmod.world.biomes.BiomeTutorial;
 import phaonica.mysecondmod.world.gen.generators.WorldGenAluminumTree;
 import phaonica.mysecondmod.world.gen.generators.WorldGenTutorialTree;
 
