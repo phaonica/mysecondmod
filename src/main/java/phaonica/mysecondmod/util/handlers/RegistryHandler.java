@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import phaonica.mysecondmod.init.BlockInit;
 import phaonica.mysecondmod.init.ItemInit;
 import phaonica.mysecondmod.util.IHasModel;
-import world.gen.WorldGenCustomOres;
+import phaonica.mysecondmod.world.gen.WorldGenCustomOres;
 
 @EventBusSubscriber
 public class RegistryHandler
