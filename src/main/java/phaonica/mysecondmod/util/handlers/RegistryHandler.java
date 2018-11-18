@@ -7,6 +7,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import phaonica.mysecondmod.init.BiomeInit;
 import phaonica.mysecondmod.init.BlockInit;
 import phaonica.mysecondmod.init.ItemInit;
 import phaonica.mysecondmod.util.IHasModel;
@@ -51,6 +52,8 @@ public class RegistryHandler
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(),  0);
 		GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(),  0);
+		
+		BiomeInit.registerBiomes();
 	}
 	
 }

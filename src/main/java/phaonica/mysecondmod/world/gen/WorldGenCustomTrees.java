@@ -6,12 +6,12 @@ import java.util.Random;
 
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.biome.BiomeForest;
 import net.minecraft.world.biome.BiomePlains;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
+import phaonica.mysecondmod.world.gen.biomes.BiomeTutorial;
 import phaonica.mysecondmod.world.gen.generators.WorldGenAluminumTree;
 import phaonica.mysecondmod.world.gen.generators.WorldGenTutorialTree;
 
@@ -26,7 +26,7 @@ public class WorldGenCustomTrees implements IWorldGenerator
 		switch(world.provider.getDimension())
 		{
 			case 0: // over world
-				runGenerator(TUTORIAL, world, random, chunkX, chunkZ, 3, -1, 0, BiomeForest.class);
+				runGenerator(TUTORIAL, world, random, chunkX, chunkZ, 3, -1, 0, BiomeTutorial.class);
 				runGenerator(ALUMINIUM, world, random, chunkX, chunkZ, 3, -1, 0, BiomePlains.class);
 				break;
 			case 1: // end
