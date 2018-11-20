@@ -8,5 +8,6 @@ public class Reference {
 
 	public static final String CLIENTPROXY = "phaonica.mysecondmod.proxy.ClientProxy";
 	public static final String COMMONPROXY = "phaonica.mysecondmod.proxy.CommonProxy";
-
+	
+	public static final int ENTITY_CENTAUR = 120;
 }
