@@ -16,6 +16,7 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 import phaonica.mysecondmod.init.ItemInit;
+import phaonica.mysecondmod.util.handlers.SoundsHandler;
 
 public class EntityCentaur extends EntityCow
 {
@@ -61,18 +62,18 @@ public class EntityCentaur extends EntityCow
 	@Override
 	protected SoundEvent getAmbientSound()
 	{
-		return super.getAmbientSound();
+		return SoundsHandler.ENTITY_CENTAUR_AMBIENT;
 	}
 	@Override
 	protected SoundEvent getHurtSound(DamageSource source)
 	{
-		return super.getHurtSound(source);
+		return SoundsHandler.ENTITY_CENTAUR_HURT;
 	}
 	
 	@Override
 	protected SoundEvent getDeathSound()
 	{
-		return super.getDeathSound();
+		return SoundsHandler.ENTITY_CENTAUR_DEATH;
 	}
 	
 	
