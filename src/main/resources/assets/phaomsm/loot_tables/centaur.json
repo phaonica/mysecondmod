@@ -1,0 +1,78 @@
+{
+    "pools": [
+        {
+            "name": "CentaurMain",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 95,
+                    "name": "minecraft:leather",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CentaurSpecial",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "phaomsm:ingot_tutorial",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "phaomsm:pickaxe_tutorial",
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "fortune"
+                            ]
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.02
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "name": "minecraft:skull",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

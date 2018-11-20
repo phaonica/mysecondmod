@@ -13,9 +13,11 @@ import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 import phaonica.mysecondmod.init.ItemInit;
+import phaonica.mysecondmod.util.handlers.LootTableHandler;
 import phaonica.mysecondmod.util.handlers.SoundsHandler;
 
 public class EntityCentaur extends EntityCow
@@ -76,6 +78,10 @@ public class EntityCentaur extends EntityCow
 		return SoundsHandler.ENTITY_CENTAUR_DEATH;
 	}
 	
-	
+	@Override
+	protected ResourceLocation getLootTable()
+	{
+		return LootTableHandler.CENTAUR;
+	}
 
 }
