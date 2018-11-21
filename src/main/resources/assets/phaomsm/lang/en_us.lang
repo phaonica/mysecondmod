@@ -20,3 +20,5 @@ tile.ore_end_aluminium.name=Aluminium End Ore
 tile.ore_end_tutorial.name=Tutorial End Ore
 
 entity.centaur.name=Centaur
+
+tile.santa_hat.name=Santa Hat

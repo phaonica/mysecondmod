@@ -10,6 +10,7 @@ import phaonica.mysecondmod.objects.blocks.BlockLeaf;
 import phaonica.mysecondmod.objects.blocks.BlockLogs;
 import phaonica.mysecondmod.objects.blocks.BlockOres;
 import phaonica.mysecondmod.objects.blocks.BlockPlank;
+import phaonica.mysecondmod.objects.blocks.BlockSantaHat;
 import phaonica.mysecondmod.objects.blocks.BlockSaplings;
 
 public class BlockInit
@@ -27,5 +28,6 @@ public class BlockInit
 	public static final Block LEAVES = new BlockLeaf("leaves");
 	public static final Block SAPLINGS = new BlockSaplings("sapling");
 
+	public static final Block SANTA_HAT = new BlockSantaHat("santa_hat");
 
 }
