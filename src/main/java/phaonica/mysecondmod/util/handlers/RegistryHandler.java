@@ -13,7 +13,7 @@ import phaonica.mysecondmod.init.EntityInit;
 import phaonica.mysecondmod.init.ItemInit;
 import phaonica.mysecondmod.util.IHasModel;
 import phaonica.mysecondmod.world.gen.WorldGenCustomOres;
-import phaonica.mysecondmod.world.gen.WorldGenCustomTrees;
+import phaonica.mysecondmod.world.gen.WorldGenCustomStructures;
 
 @EventBusSubscriber
 public class RegistryHandler
@@ -57,11 +57,13 @@ public class RegistryHandler
 	public static void otherRegistries()
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(),  0);
-		GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(),  0);
+		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 		
 		BiomeInit.registerBiomes();
 		EntityInit.registerEntities();
 		RenderHandler.RegisterEntityRenders();
+		
+		
 	}
 	
 }
