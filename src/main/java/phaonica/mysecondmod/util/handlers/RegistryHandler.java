@@ -5,10 +5,12 @@ import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import phaonica.mysecondmod.Main;
+import phaonica.mysecondmod.commands.CommandDimensionTeleport;
 import phaonica.mysecondmod.init.BiomeInit;
 import phaonica.mysecondmod.init.BlockInit;
 import phaonica.mysecondmod.init.EntityInit;
@@ -68,6 +70,11 @@ public class RegistryHandler
 		RenderHandler.RegisterEntityRenders();
 		
 		
+	}
+	
+	public static void serverRegistries(FMLServerStartingEvent event)
+	{
+		event.registerServerCommand(new CommandDimensionTeleport());
 	}
 	
 }

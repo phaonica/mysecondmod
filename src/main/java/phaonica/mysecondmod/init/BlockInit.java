@@ -13,6 +13,7 @@ import phaonica.mysecondmod.objects.blocks.BlockPlank;
 import phaonica.mysecondmod.objects.blocks.BlockRicePlant;
 import phaonica.mysecondmod.objects.blocks.BlockSantaHat;
 import phaonica.mysecondmod.objects.blocks.BlockSaplings;
+import phaonica.mysecondmod.objects.blocks.BlockTeleporter;
 import phaonica.mysecondmod.objects.blocks.machines.sinterer.BlockSinteringFurnace;
 
 public class BlockInit
@@ -35,5 +36,7 @@ public class BlockInit
 	public static final Block SINTERING_FURNACE = new BlockSinteringFurnace("sintering_furnace");
 	
 	public static final Block RICE_PLANT = new BlockRicePlant("rice_plant");
+	
+	public static final Block TELEPORTER = new BlockTeleporter("teleporter");
 
 }

@@ -18,6 +18,7 @@ tile.ore_nether_aluminium.name=Aluminium Nether Ore
 tile.ore_nether_tutorial.name=Tutorial Nether Ore
 tile.ore_end_aluminium.name=Aluminium End Ore
 tile.ore_end_tutorial.name=Tutorial End Ore
+tile.teleporter.name=Teleporter
 
 entity.centaur.name=Centaur
 
