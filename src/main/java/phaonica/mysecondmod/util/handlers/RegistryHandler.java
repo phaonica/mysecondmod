@@ -13,6 +13,7 @@ import phaonica.mysecondmod.Main;
 import phaonica.mysecondmod.commands.CommandDimensionTeleport;
 import phaonica.mysecondmod.init.BiomeInit;
 import phaonica.mysecondmod.init.BlockInit;
+import phaonica.mysecondmod.init.DimensionInit;
 import phaonica.mysecondmod.init.EntityInit;
 import phaonica.mysecondmod.init.ItemInit;
 import phaonica.mysecondmod.util.IHasModel;
@@ -66,6 +67,8 @@ public class RegistryHandler
 		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 		
 		BiomeInit.registerBiomes();
+		DimensionInit.registerDimension();
+		
 		EntityInit.registerEntities();
 		RenderHandler.RegisterEntityRenders();
 		
