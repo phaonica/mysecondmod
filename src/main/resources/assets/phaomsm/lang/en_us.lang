@@ -22,3 +22,8 @@ tile.ore_end_tutorial.name=Tutorial End Ore
 entity.centaur.name=Centaur
 
 tile.santa_hat.name=Santa Hat
+
+// SINTERING
+container.sintering_furnace=Sintering Furnace
+tile.sintering_furnace.name=Sintering Furnace
+

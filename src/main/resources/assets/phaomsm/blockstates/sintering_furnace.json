@@ -1,0 +1,13 @@
+{
+    "variants": 
+    {
+        "burning=false,facing=north": { "model": "phaomsm:sintering_furnace" },
+        "burning=false,facing=east": { "model": "phaomsm:sintering_furnace", "y": 90 },
+        "burning=false,facing=south": { "model": "phaomsm:sintering_furnace", "y": 180 },
+        "burning=false,facing=west": { "model": "phaomsm:sintering_furnace", "y": 270 },
+        "burning=true,facing=north": { "model": "phaomsm:lit_sintering_furnace" },
+        "burning=true,facing=east": { "model": "phaomsm:lit_sintering_furnace", "y": 90 },
+        "burning=true,facing=south": { "model": "phaomsm:lit_sintering_furnace", "y": 180 },
+        "burning=true,facing=west": { "model": "phaomsm:lit_sintering_furnace", "y":270  }
+    }
+}

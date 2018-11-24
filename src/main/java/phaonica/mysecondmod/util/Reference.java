@@ -10,4 +10,5 @@ public class Reference {
 	public static final String COMMONPROXY = "phaonica.mysecondmod.proxy.CommonProxy";
 	
 	public static final int ENTITY_CENTAUR = 120;
+	public static final int GUI_SINTERING_FURNACE = 0;
 }
