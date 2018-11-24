@@ -27,3 +27,7 @@ tile.santa_hat.name=Santa Hat
 container.sintering_furnace=Sintering Furnace
 tile.sintering_furnace.name=Sintering Furnace
 
+// RICE CROP
+item.rice_bowl.name=Rice Bowl
+item.rice.name=Rice
+tile.rice_plant.name=Rice Plant

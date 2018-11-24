@@ -11,6 +11,8 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import phaonica.mysecondmod.objects.armour.ArmorBase;
 import phaonica.mysecondmod.objects.items.ItemBase;
+import phaonica.mysecondmod.objects.items.food.ItemCustomFood;
+import phaonica.mysecondmod.objects.items.food.ItemRice;
 import phaonica.mysecondmod.objects.tools.ToolPickaxe;
 import phaonica.mysecondmod.util.Reference;
 
@@ -32,5 +34,10 @@ public class ItemInit
 	
 	// ARMOR
 	public static final Item HELMET_TUTORIAL = new ArmorBase("helmet_tutorial", MATERIAL_ARMOR_TUTORIAL, 1, EntityEquipmentSlot.HEAD);
+	
+	// FOOD
+	public static final Item RICE_BOWL = new ItemCustomFood("rice_bowl", 8, false);
+	public static final Item RICE = new ItemRice("rice", 1, false);
+	
 
 }
